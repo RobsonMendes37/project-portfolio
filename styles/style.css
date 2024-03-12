@@ -37,6 +37,10 @@ body{
     color: #22D4FD;
     text-decoration: none;
 }
+
+.cabecalho__menu__link:hover{
+    color:aqua;
+}
 .apresentacao{
     padding: 5% 15%;
     display: flex;
@@ -73,7 +77,7 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--font-principal);
     font-weight: 400;
-    font-size: 1.5rem; /* serve para se adequar a preferencia do usuario em personalizar o tamanho da fonte pelo navegador*/
+    font-size: 1.5rem; 
 }
 .apresentacao__links__navegacao{
     display: flex;
@@ -101,12 +105,53 @@ body{
 .rodape{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding: 24px;
-    text-align: center;
+    padding: 15px;
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+    max-height: 8.125rem;
+    display: flex;
+    justify-content: space-between;
+    
 }
+
+.footer__direita{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    padding-right: 3%;
+}
+
+.footer__referencia{
+    display: flex;
+    justify-content: right;
+    font-size: 0.9rem;
+}
+
+.footer__iconsSociais{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding-left: 10%;
+}
+
+.footer__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.footer__menu__link{
+    color: black;
+    font-family:var(--font-secundaria);
+    font-size: 1,2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer__menu__link:hover{
+    color: #272727;
+}
+
 
 @media (max-width: 1200px) {
     .cabecalho{
@@ -125,4 +170,40 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
+}
+
+
+/* -------------CSS DE PROJETOS------------ */
+
+.projetos__apresentacao{
+    padding: 5% 7%;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.projetos__titulo{
+    font-size: 2.25rem;
+    font-family: var(--font-principal);
+    display: flex;
+    justify-content: left;
+}
+
+.projetos__divisoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+}
+
+.projetos__apresentacao__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:45%;
+}
+
+.projetos__imagem{
+    width: 60%;
+    height: 30%;
 }
