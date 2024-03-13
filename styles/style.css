@@ -179,8 +179,10 @@ body{
     padding: 5% 7%;
     display: flex;
     flex-direction: column;
-    gap:25px;
+    gap:50px;
 }
+
+
 
 .projetos__titulo{
     font-size: 2.25rem;
@@ -192,8 +194,18 @@ body{
 .projetos__divisoes{
     display: flex;
     justify-content: space-between;
-    gap: 25px;
+    gap: 50px;
     align-items: center;
+    padding-top: 3%;
+}
+
+.projetos__divisoes__reverso{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding-top: 3%;
+    flex-direction: row-reverse;
 }
 
 .projetos__apresentacao__conteudo{
@@ -201,9 +213,145 @@ body{
     flex-direction: column;
     gap: 25px;
     width:45%;
+    
 }
 
 .projetos__imagem{
-    width: 60%;
-    height: 30%;
+    width: 55%;
+    height: auto;
 }
+
+.projetos__imagem__imagem{
+    width: 100%;
+    height: 100%;
+}
+
+.projetos__apresentacao__conteudo__titulo{
+    font-size: 1,5rem;
+    font-family: var(--font-principal);
+    display: flex;
+    justify-content: left;
+    color: var(--secundaria);
+}
+
+.projetos__apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family:var(--font-secundaria);
+}
+
+.conteudo__tecnologias{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+
+}
+
+.projetos__apresentacao__conteudo__tecnologias{
+    font-size: 1.5rem;
+    font-family:var(--font-secundaria);
+    color: var(--cor-secundaria);  
+    
+}
+
+
+
+
+/*-------------------- CSS de Contate-me ------------------*/
+
+.contate-me__apresentacao {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+#linhaInferior{
+    justify-content: left;
+    width: 49%;
+    margin-bottom: -6.5%;
+}
+
+.contate-me__apresentacao_linhaSuperior {
+    margin-top: -2%;
+    margin-bottom: -1%;
+}
+
+.contate-me__titulo {
+    font-size: 2.25rem;
+    font-family: var(--font-principal);
+    display: flex;
+    justify-content: left;
+}
+
+.contate-me__divisoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.contate-me__apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 45%;
+}
+
+.contate-me__imagem {
+    width: 50%;
+}
+
+.contate-me__apresentacao__conteudo__nomes {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.formulario__campos{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.formulario__opcao{
+    display: flex;
+    height: 34px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: var(--font-secundaria);
+    text-align: center;
+}
+
+#mensagem{
+    height: 150px;
+    width: 100%;
+}
+
+.fomulario__titulo{
+    font-size:1.2rem;
+    font-family:var(--font-principal) ;
+}
+
+/* Estilo do botão de envio */
+button[type="submit"] {
+    background-color: #1b86f9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: var(--font-principal);
+    width: 25%;
+    border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
