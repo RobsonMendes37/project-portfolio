@@ -1,7 +1,5 @@
 # Project_Portfolio
 
-## Site
-Visite o site [aqui](https://project-portfolio-nmyf.vercel.app/).
 
 ## Protótipo Figma
 Confira o protótipo no Figma [aqui](https://www.figma.com/file/cgO2zItUXdH50aBTFVc1IN/project-portif%C3%B3lio?type=design&node-id=0%3A1&mode=design&t=S9Ap7DIotBoWyvmE-1).
@@ -22,6 +20,9 @@ Este é um projeto de landing page que desenvolvi utilizando apenas HTML e CSS, 
 ![image](https://github.com/RobsonMendes37/project-portfolio/assets/111722533/67031d0c-cf82-4bb1-8d11-a612c03f9fdc)
 
 
+## Site
+Visite o site [aqui](https://project-portfolio-nmyf.vercel.app/).
+Ainda em desenvolvimento a responsividade para mobile
 ## Tecnologias Utilizadas
 - HTML5
 - CSS3
