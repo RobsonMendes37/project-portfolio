@@ -15,7 +15,6 @@ Este é um projeto de landing page que desenvolvi utilizando apenas HTML e CSS, 
 
 
 ## imagens
-![image](https://github.com/RobsonMendes37/project-portfolio/assets/111722533/6c4f1498-fd15-49aa-af80-a442ab3f75a5)
 
 ![image](https://github.com/RobsonMendes37/project-portfolio/assets/111722533/67031d0c-cf82-4bb1-8d11-a612c03f9fdc)
 
