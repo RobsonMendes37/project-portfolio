@@ -40,6 +40,21 @@ body{
     .cabecalho__menu{
         gap:40px;
     }
+    header.cabecalho{
+        padding: 10% 0% 5% 5%;
+    }
+
+}
+@media(max-width:540px) {
+    header.cabecalho{
+        padding: 10% 0% 3% 3%;
+    }
+    .cabecalho__menu{
+        gap:30px;
+        width: 100%;
+        margin: 0%;
+    }
+    
 
 }
 
@@ -207,8 +222,14 @@ body{
 
 @media (max-width: 480px) {
     .footer__iconsSociais__icone img{
-        width: 60px;
+        width: 55px;
         height: auto;
+    }
+    .footer__menu__link{
+        font-size: 19px;
+    }
+    .rodape{
+        padding: 2%;
     }
 }
 
