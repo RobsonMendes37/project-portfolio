@@ -47,10 +47,10 @@ body{
 }
 @media(max-width:540px) {
     header.cabecalho{
-        padding: 10% 0% 3% 3%;
+        padding: 10% 0% 2.5% 2.5%;
     }
     .cabecalho__menu{
-        gap:30px;
+        gap:24px;
         width: 100%;
         margin: 0%;
     }
