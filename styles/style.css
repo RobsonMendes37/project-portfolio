@@ -200,6 +200,10 @@ body{
         padding: 0%;
         gap:5px;
     }
+    .footer__menu{
+       font-size: 18px;
+    
+    }
    
 }
 
