@@ -23,19 +23,24 @@ body{
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
-
-
 }
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 60px;
 }
 .cabecalho__menu__link{
     font-family:var(--font-secundaria);
-    font-size: 1,5rem;
+    font-size: 1,6rem;
     font-weight: 600;
     color: #22D4FD;
     text-decoration: none;
+}
+
+@media(max-width:640px) {
+    .cabecalho__menu{
+        gap:40px;
+    }
+
 }
 
 .cabecalho__menu__link:hover{
@@ -119,7 +124,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 46px;
-    padding-right: 3%;
+    padding-right: 0%;
 }
 
 .footer__referencia{
@@ -138,6 +143,7 @@ body{
 .footer__menu{
     display: flex;
     gap: 80px;
+    align-items: right;
 }
 
 .footer__menu__link{
@@ -172,6 +178,30 @@ body{
     }
 }
 
+@media (max-width: 1150px) {
+    .footer__menu{
+        flex-direction: column;
+        gap:2px;
+        padding:0%;
+        margin-right:5px ;
+    }
+    .footer__referencia{
+        display: none;
+    }
+}
+@media (max-width: 540px) {
+    .footer__iconsSociais__icone {
+        margin-left: 0%;
+       /* não consigo mudar o tamanho das imgs */
+    }
+
+    .footer__iconsSociais{
+        display:flexbox;
+        padding: 0%;
+        gap:5px;
+    }
+   
+}
 
 /* -------------CSS DE PROJETOS------------ */
 
@@ -208,12 +238,13 @@ body{
     flex-direction: row-reverse;
 }
 
+
+
 .projetos__apresentacao__conteudo{
     display: flex;
     flex-direction: column;
     gap: 25px;
     width:45%;
-    
 }
 
 .projetos__imagem{
@@ -253,7 +284,32 @@ body{
     
 }
 
+@media (max-width: 1200px) {
+    .projetos__divisoes{
+        flex-direction: column-reverse;
+        gap:15px;
+    }
+    .projetos__divisoes__reverso{
+        flex-direction: column-reverse;
+        gap:15px;
+    }
+    .projetos__apresentacao{
+        padding: 5% 7%;
+        gap:70px;
+    }
+    .projetos__imagem{
+        width: 110%;
+        height: auto;
+    }
 
+    .projetos__apresentacao__conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width:105%;
+
+    }
+}
 
 
 /*-------------------- CSS de Contate-me ------------------*/
@@ -355,3 +411,23 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+
+
+
+@media(max-width:1150px){
+
+    .contate-me__apresentacao__conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+    .contate-me__imagem{
+        visibility: hidden;
+        width: 0%; 
+        display: none;
+    }
+    #linhaInferior{
+        width: 50%;
+    }
+}
