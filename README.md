@@ -1,7 +1,6 @@
 # Project_Portfolio
 
-## Site
-Visite o site [aqui](https://project-portfolio-nmyf.vercel.app/).
+
 
 ## Descrição
 Este é um projeto de landing page que desenvolvi utilizando apenas HTML e CSS, como um desafio pessoal para aprimorar minhas habilidades como front-end. A landing page consiste em quatro abas principais:
@@ -11,17 +10,15 @@ Este é um projeto de landing page que desenvolvi utilizando apenas HTML e CSS, 
 - **Projetos:** Mostra os projetos em que participei ou estou participando, com uma descrição, tecnologias utilizadas e meu envolvimento neles.
 - **Contate-me:** Uma tela de formulário onde os visitantes podem entrar em contato comigo enviando informações para o meu e-mail.
 
-
-## Protótipo Figma
-Confira o protótipo no Figma [aqui](https://www.figma.com/file/cgO2zItUXdH50aBTFVc1IN/project-portif%C3%B3lio?type=design&node-id=0%3A1&mode=design&t=S9Ap7DIotBoWyvmE-1).
-
-
-
+## Site
+Visite o site [aqui](https://project-portfolio-nmyf.vercel.app/).
 
 ## imagens
 
 ![image](https://github.com/RobsonMendes37/project-portfolio/assets/111722533/67031d0c-cf82-4bb1-8d11-a612c03f9fdc)
 
+## Protótipo Figma
+Confira o protótipo no Figma [aqui](https://www.figma.com/file/cgO2zItUXdH50aBTFVc1IN/project-portif%C3%B3lio?type=design&node-id=0%3A1&mode=design&t=S9Ap7DIotBoWyvmE-1).
 
 
 ## Tecnologias Utilizadas
