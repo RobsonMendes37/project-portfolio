@@ -189,23 +189,30 @@ body{
         display: none;
     }
 }
-@media (max-width: 540px) {
+@media (max-width: 580px) {
     .footer__iconsSociais__icone {
         margin-left: 0%;
-       /* não consigo mudar o tamanho das imgs */
     }
 
-    .footer__iconsSociais{
-        display:flexbox;
+    .footer__iconsSociais {
+        display: flex; 
         padding: 0%;
-        gap:5px;
+        gap: 10px;
     }
-    .footer__menu{
-       font-size: 18px;
-    
+    .footer__iconsSociais__icone img{
+        width: 80px;
+        height: auto;
     }
-   
 }
+
+@media (max-width: 480px) {
+    .footer__iconsSociais__icone img{
+        width: 60px;
+        height: auto;
+    }
+}
+
+
 
 /* -------------CSS DE PROJETOS------------ */
 
